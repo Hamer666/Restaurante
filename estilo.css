@@ -59,7 +59,7 @@ body {
     color: rgb(255, 255, 255);
 }
 .navbar-nav li:hover > a {
-    background:#542326 ;
+    background:#8A491F ;
     color:#000;
     border-top:1px solid #f8f8f8;
     box-shadow:0 2px 2px rgba(0,0,0, .7); 
@@ -73,7 +73,7 @@ body {
     color:#000;
 }
 .navbar-nav ul li a:hover {
-    background:#542326;
+    background:#8A491F;
     color:#fff;
     -webkit-border-radius:10px;
     text-shadow:0 2px 2px rgba(0,0,0, 0.7);
@@ -94,13 +94,13 @@ body {
 
 a,
 footer {
-    color: #542326;
+    color: #8A491F;
     text-decoration: none;
 }
 
 .navbar-dark .navbar-toggler {
-    color: #542326;
-    border-color: #542326;
+    color: #8A491F;
+    border-color: #8A491F;
 }
 .dropdown-item{
     border-top:1px solid #f8f8f8;
@@ -116,7 +116,7 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .dropdown-item:hover {
-    background:#542326 ;
+    background:#8A491F ;
     color:#000;
     border-top:1px solid #f8f8f8;
     box-shadow:0 2px 2px rgba(0,0,0, .7); 
@@ -204,13 +204,13 @@ button,input,optgroup,select,textarea {
 }
 
 .footer {
-    background-color: #542326 !important;
+    background-color: #8A491F !important;
     text-align: -webkit-center;
     color: #F4F5F6 !important;
 }
 
 a:hover {
-    color:#542326 ;
+    color:#8A491F ;
 }
 
 article,aside,figcaption,figure,footer,header,hgroup,main,nav,section {
@@ -349,7 +349,12 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-
+.metas{
+    Font-size: 30px;
+}
+.metasDentro{
+    font-size: 20px;
+}
 *,
 *::before,
 *::after {
@@ -373,7 +378,7 @@ p {
 }
 
 .bg-light {
-    background-color: #542326!important;
+    background-color: #8A491F!important;
 
 }
 
@@ -386,7 +391,7 @@ p {
     z-index: 99; 
     border: 1px solid; 
     border-radius: 1px;
-    border-color: #542326;
+    border-color: #8A491F;
     outline: none; 
     cursor: pointer; 
     padding: 25px; 
@@ -395,7 +400,7 @@ p {
     background: no-repeat;
     background-image: url(arriba.png);
     background-position: center ;
-    background-color: #542326;
+    background-color: #8A491F;
  }
  .dropdown-menu {
     position: absolute;
@@ -412,7 +417,7 @@ p {
     text-align: left;
     list-style: none;
     background-color:none;
-    border: 1px solid #542326;
+    border: 1px solid #8A491F;
     border-radius: 20px;
  }
  .dropdown-menu.show {
@@ -422,7 +427,7 @@ p {
 }
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #542326;
+    background-color: #8A491F;
     border-color: #007bff;
     background: no-repeat;
     background-image: url(arriba.png);
@@ -430,12 +435,32 @@ p {
     opacity: 0.6;
 }
 .myBtn:hover{
-background-color: #542326!important;
-color: #542326!important;
+background-color: #8A491F!important;
+color: #8A491F!important;
+}
+/* menu */
+
+.menu{
+    border-top: 20px;
+    text-align: center;
 }
 
-/* Img .modal */
+/* fin menu */
+/* Img  */
+.imagen1{
+    width: 80%;
+    margin-left: 10%;
 
+    
+}
+.imagen2{
+    width: 80%;
+    margin-left: 10%;
+
+    
+}
+
+/* fin Img */
 
 /* Style the Image Used to Trigger the Modal */
 
